@@ -1,0 +1,37 @@
+#将本文件中列出的文件排除到git之外
+
+*.class
+
+#package file包文件
+#maven的jar包在本地仓库，不再项目文件夹中
+*.war
+*.ear
+
+#kdiff3 一种diff工具
+*.orig
+
+#maven ignore
+target/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#idea的本地配置文件
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#临时文件
+*.log
+*.cache
+*.patch
+*.diff
+*.tmp
+
+#system ignore
+.DS_Store
+Thumbs.db
